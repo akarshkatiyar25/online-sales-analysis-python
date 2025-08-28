@@ -1,105 +1,65 @@
-{
- "cells": [
-  {
-   "cell_type": "markdown",
-   "id": "d1f2f5c2-6698-4cee-8c00-fb4898da2c7f",
-   "metadata": {},
-   "source": [
-    "# Online Sales Analysis\n",
-    "\n",
-    "## Summary\n",
-    "A comprehensive analysis of an online sales dataset to gain insights on sales trends, product categories, and customer behavior.\n",
-    "\n",
-    "## Table of Contents\n",
-    "- [Overview](#overview)\n",
-    "- [Problem Statement](#problem-statement)\n",
-    "- [Dataset](#dataset)\n",
-    "- [Tools and Technologies](#tools-and-technologies)\n",
-    "- [Methods](#methods)\n",
-    "- [Key Insights](#key-insights)\n",
-    "- [How to Run This Project](#how-to-run-this-project)\n",
-    "- [Results and Conclusion](#results-and-conclusion)\n",
-    "- [Author and Contact](#author-and-contact)\n",
-    "  \n",
-    "## Overview\n",
-    "This project involves loading, cleaning, and exploring an online sales dataset to understand sales performance across different dimensions such as time, product categories, and segment. The analysis includes data visualization and basic statistical summaries to reveal sales patterns and business insights.\n",
-    "\n",
-    "## Problem Statement\n",
-    "Organizations need to understand their sales data to optimize inventory, improve customer targeting, and enhance revenue. This project aims to analyze historical sales data to identify key sales drivers and trends that can inform strategic decisions.\n",
-    "\n",
-    "## Dataset\n",
-    "- The dataset used is \"Online Sales Dataset.csv\".\n",
-    "- It contains fields such as Order ID, Order Date, Ship Date, Customer information, Product Category, Sub-category, Sales, and geographical details.\n",
-    "- The dataset covers sales data for several years, enabling time-based trend analysis.\n",
-    "\n",
-    "## Tools and Technologies\n",
-    "- Python 3.x\n",
-    "- Jupyter Notebook\n",
-    "- Pandas for data manipulation\n",
-    "- NumPy for numerical computations\n",
-    "- Matplotlib and Seaborn for data visualization\n",
-    "\n",
-    "## Methods\n",
-    "- Data loading and cleaning\n",
-    "- Exploratory Data Analysis (EDA) including:\n",
-    "  - Aggregation of sales by year, region, and product category\n",
-    "  - Visualization of sales trends over time\n",
-    "  - Category-wise and region-wise sales distribution\n",
-    "- Generation of summary statistics to identify key trends\n",
-    "\n",
-    "## Key Insights\n",
-    "- Sales show an increasing trend year over year.\n",
-    "- Certain product categories and regions contribute more significantly to overall sales.\n",
-    "- Seasonal and shipping patterns impact sales performance.\n",
-    "\n",
-    "## How to Run This Project\n",
-    "1. Clone the repository to your local machine.\n",
-    "2. Ensure Python and Jupyter Notebook are installed.\n",
-    "3. Install the required Python packages: pandas, numpy, matplotlib, seaborn.\n",
-    "pip install pandas numpy matplotlib seaborn\n",
-    "\n",
-    "text\n",
-    "4. Place the \"Online Sales Dataset.csv\" file in the project folder.\n",
-    "5. Open the `Online-Sales-Analysis.ipynb` notebook in Jupyter.\n",
-    "6. Run the notebook cells sequentially to reproduce the analysis and visualizations.\n",
-    "\n",
-    "## Results and Conclusion\n",
-    "The analysis provides valuable insights into sales behaviors and trends, highlighting high-performing categories and regions. This can help guide business strategies such as marketing focus and inventory management to boost revenue growth.\n",
-    "\n",
-    "## Author and Contact\n",
-    "- Author: [Akarsh Katiyar]\n",
-    "- E-mail: [akarsh.katiyar25@gmail.com]\n",
-    "- linkedn: [https://www.linkedin.com/in/akarsh-katiyar-06272a359/]"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "4ca54035-3b1c-4251-9f99-8ca28ec3aa52",
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  }
- ],
- "metadata": {
-  "kernelspec": {
-   "display_name": "Python 3 (ipykernel)",
-   "language": "python",
-   "name": "python3"
-  },
-  "language_info": {
-   "codemirror_mode": {
-    "name": "ipython",
-    "version": 3
-   },
-   "file_extension": ".py",
-   "mimetype": "text/x-python",
-   "name": "python",
-   "nbconvert_exporter": "python",
-   "pygments_lexer": "ipython3",
-   "version": "3.13.5"
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 5
-}
+# Online Sales Analysis
+
+## Summary
+A comprehensive analysis of an online sales dataset to gain insights on sales trends, product categories, and customer behavior.
+
+## Table of Contents
+- [Overview](#overview)
+- [Problem Statement](#problem-statement)
+- [Dataset](#dataset)
+- [Tools and Technologies](#tools-and-technologies)
+- [Methods](#methods)
+- [Key Insights](#key-insights)
+- [How to Run This Project](#how-to-run-this-project)
+- [Results and Conclusion](#results-and-conclusion)
+- [Author and Contact](#author-and-contact)
+  
+## Overview
+This project involves loading, cleaning, and exploring an online sales dataset to understand sales performance across different dimensions such as time, product categories, and segment. The analysis includes data visualization and basic statistical summaries to reveal sales patterns and business insights.
+
+## Problem Statement
+Organizations need to understand their sales data to optimize inventory, improve customer targeting, and enhance revenue. This project aims to analyze historical sales data to identify key sales drivers and trends that can inform strategic decisions.
+
+## Dataset
+- The dataset used is "Online Sales Dataset.csv".
+- It contains fields such as Order ID, Order Date, Ship Date, Customer information, Product Category, Sub-category, Sales, and geographical details.
+- The dataset covers sales data for several years, enabling time-based trend analysis.
+
+## Tools and Technologies
+- Python 3.x
+- Jupyter Notebook
+- Pandas for data manipulation
+- NumPy for numerical computations
+- Matplotlib and Seaborn for data visualization
+
+## Methods
+- Data loading and cleaning
+- Exploratory Data Analysis (EDA) including:
+  - Aggregation of sales by year, region, and product category
+  - Visualization of sales trends over time
+  - Category-wise and region-wise sales distribution
+- Generation of summary statistics to identify key trends
+
+## Key Insights
+- Sales show an increasing trend year over year.
+- Certain product categories and regions contribute more significantly to overall sales.
+- Seasonal and shipping patterns impact sales performance.
+
+## How to Run This Project
+1. Clone the repository to your local machine.
+2. Ensure Python and Jupyter Notebook are installed.
+3. Install the required Python packages: pandas, numpy, matplotlib, seaborn.
+pip install pandas numpy matplotlib seaborn
+
+text
+4. Place the "Online Sales Dataset.csv" file in the project folder.
+5. Open the `Online-Sales-Analysis.ipynb` notebook in Jupyter.
+6. Run the notebook cells sequentially to reproduce the analysis and visualizations.
+
+## Results and Conclusion
+The analysis provides valuable insights into sales behaviors and trends, highlighting high-performing categories and regions. This can help guide business strategies such as marketing focus and inventory management to boost revenue growth.
+
+## Author and Contact
+- Author: [Akarsh Katiyar]
+- E-mail: [akarsh.katiyar25@gmail.com]
+- linkedn: [https://www.linkedin.com/in/akarsh-katiyar-06272a359/]
